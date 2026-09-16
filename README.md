@@ -49,10 +49,10 @@ Documentation interactive : http://localhost:8000/docs
 
 Exemple de requête :
 
-```powershell
-curl -X POST http://localhost:8000/predict `
-  -H "Content-Type: application/json" `
-  -d '{"age":35,"income":60000,"loan_amount":50000,"credit_score":700,"months_employed":60,"num_credit_lines":3,"interest_rate":8.5,"loan_term":36,"dti_ratio":0.3}'
+```bash
+curl -X POST "http://localhost:8000/predict" \
+-H "Content-Type: application/json" \
+-d '{"age":35,"income":60000,"loan_amount":50000,"credit_score":700,"months_employed":60,"num_credit_lines":3,"interest_rate":8.5,"loan_term":36,"dti_ratio":0.3}'
 ```
 
 Réponse :
