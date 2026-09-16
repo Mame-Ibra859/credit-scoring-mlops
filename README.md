@@ -39,6 +39,8 @@ La commande crée `models/best_model.joblib` et les expériences dans `mlruns/`.
 MLflow est disponible sur http://localhost:5000 pour comparer l'accuracy,
 la précision, le recall et le F1-score des deux modèles.
 
+Exemple:
+![alt text](image.png)
 ## API
 
 ```powershell
